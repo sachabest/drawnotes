@@ -7,14 +7,20 @@
 //
 
 #import "sbAppDelegate.h"
+#import "sbFirstViewController.h"
 
 @implementation sbAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    sbFirstViewController *myDrawingController=[[sbFirstViewController alloc]initWithNibName:@"DrawingController" bundle:[NSBundle mainBundle]];
+    
     // Override point for customization after application launch.
+    [self.window makeKeyAndVisible];
     return YES;
 }
+
+
 							
 - (void)applicationWillResignActive:(UIApplication *)application
 {

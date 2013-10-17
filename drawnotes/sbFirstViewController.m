@@ -7,6 +7,7 @@
 //
 
 #import "sbFirstViewController.h"
+#import "MyLineDrawingView.h"
 
 @interface sbFirstViewController ()
 
@@ -16,6 +17,9 @@
 
 - (void)viewDidLoad
 {
+    [self.view setBackgroundColor:[UIColor whiteColor]];
+    
+    MyLineDrawingView *drawScreen=[[MyLineDrawingView alloc]initWithFrame:CGRectMake(0, 45, 768, 1004)];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }

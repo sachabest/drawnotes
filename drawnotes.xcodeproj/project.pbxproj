@@ -23,6 +23,7 @@
 		19558AF41809DFD0008D0AE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19558AD01809DFD0008D0AE2 /* UIKit.framework */; };
 		19558AFC1809DFD0008D0AE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19558AFA1809DFD0008D0AE2 /* InfoPlist.strings */; };
 		19558AFE1809DFD0008D0AE2 /* drawnotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19558AFD1809DFD0008D0AE2 /* drawnotesTests.m */; };
+		199F276118104FE30085013D /* MyLineDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 199F276018104FE30085013D /* MyLineDrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		19558AF91809DFD0008D0AE2 /* drawnotesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "drawnotesTests-Info.plist"; sourceTree = "<group>"; };
 		19558AFB1809DFD0008D0AE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		19558AFD1809DFD0008D0AE2 /* drawnotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = drawnotesTests.m; sourceTree = "<group>"; };
+		199F275F18104FE30085013D /* MyLineDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLineDrawingView.h; sourceTree = "<group>"; };
+		199F276018104FE30085013D /* MyLineDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLineDrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,7 @@
 		19558AC01809DFD0008D0AE2 = {
 			isa = PBXGroup;
 			children = (
+				199F275E1809EA060085013D /* Docs */,
 				19558AD21809DFD0008D0AE2 /* drawnotes */,
 				19558AF71809DFD0008D0AE2 /* drawnotesTests */,
 				19558ACB1809DFD0008D0AE2 /* Frameworks */,
@@ -117,6 +121,8 @@
 		19558AD21809DFD0008D0AE2 /* drawnotes */ = {
 			isa = PBXGroup;
 			children = (
+				199F275F18104FE30085013D /* MyLineDrawingView.h */,
+				199F276018104FE30085013D /* MyLineDrawingView.m */,
 				19558ADB1809DFD0008D0AE2 /* sbAppDelegate.h */,
 				19558ADC1809DFD0008D0AE2 /* sbAppDelegate.m */,
 				19558ADE1809DFD0008D0AE2 /* Main_iPhone.storyboard */,
@@ -158,6 +164,13 @@
 				19558AFA1809DFD0008D0AE2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		199F275E1809EA060085013D /* Docs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Docs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				199F276118104FE30085013D /* MyLineDrawingView.m in Sources */,
 				19558AD91809DFD0008D0AE2 /* main.m in Sources */,
 				19558AE61809DFD0008D0AE2 /* sbFirstViewController.m in Sources */,
 				19558ADD1809DFD0008D0AE2 /* sbAppDelegate.m in Sources */,
@@ -481,6 +495,7 @@
 				19558B031809DFD0008D0AE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19558B041809DFD0008D0AE2 /* Build configuration list for PBXNativeTarget "drawnotesTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +504,7 @@
 				19558B061809DFD0008D0AE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
