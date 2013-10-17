@@ -16,14 +16,13 @@
 		19558AE01809DFD0008D0AE2 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19558ADE1809DFD0008D0AE2 /* Main_iPhone.storyboard */; };
 		19558AE31809DFD0008D0AE2 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19558AE11809DFD0008D0AE2 /* Main_iPad.storyboard */; };
 		19558AE61809DFD0008D0AE2 /* sbFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19558AE51809DFD0008D0AE2 /* sbFirstViewController.m */; };
-		19558AE91809DFD0008D0AE2 /* sbSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19558AE81809DFD0008D0AE2 /* sbSecondViewController.m */; };
 		19558AEB1809DFD0008D0AE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19558AEA1809DFD0008D0AE2 /* Images.xcassets */; };
 		19558AF21809DFD0008D0AE2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19558AF11809DFD0008D0AE2 /* XCTest.framework */; };
 		19558AF31809DFD0008D0AE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19558ACC1809DFD0008D0AE2 /* Foundation.framework */; };
 		19558AF41809DFD0008D0AE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19558AD01809DFD0008D0AE2 /* UIKit.framework */; };
 		19558AFC1809DFD0008D0AE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19558AFA1809DFD0008D0AE2 /* InfoPlist.strings */; };
 		19558AFE1809DFD0008D0AE2 /* drawnotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19558AFD1809DFD0008D0AE2 /* drawnotesTests.m */; };
-		199F276118104FE30085013D /* MyLineDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 199F276018104FE30085013D /* MyLineDrawingView.m */; };
+		19FF83F618106EE5005A4E49 /* MyLineDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FF83F518106EE5005A4E49 /* MyLineDrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,16 +50,14 @@
 		19558AE21809DFD0008D0AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		19558AE41809DFD0008D0AE2 /* sbFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sbFirstViewController.h; sourceTree = "<group>"; };
 		19558AE51809DFD0008D0AE2 /* sbFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sbFirstViewController.m; sourceTree = "<group>"; };
-		19558AE71809DFD0008D0AE2 /* sbSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sbSecondViewController.h; sourceTree = "<group>"; };
-		19558AE81809DFD0008D0AE2 /* sbSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sbSecondViewController.m; sourceTree = "<group>"; };
 		19558AEA1809DFD0008D0AE2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		19558AF01809DFD0008D0AE2 /* drawnotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drawnotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19558AF11809DFD0008D0AE2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		19558AF91809DFD0008D0AE2 /* drawnotesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "drawnotesTests-Info.plist"; sourceTree = "<group>"; };
 		19558AFB1809DFD0008D0AE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		19558AFD1809DFD0008D0AE2 /* drawnotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = drawnotesTests.m; sourceTree = "<group>"; };
-		199F275F18104FE30085013D /* MyLineDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLineDrawingView.h; sourceTree = "<group>"; };
-		199F276018104FE30085013D /* MyLineDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLineDrawingView.m; sourceTree = "<group>"; };
+		19FF83F418106EE5005A4E49 /* MyLineDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLineDrawingView.h; sourceTree = "<group>"; };
+		19FF83F518106EE5005A4E49 /* MyLineDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLineDrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,16 +118,14 @@
 		19558AD21809DFD0008D0AE2 /* drawnotes */ = {
 			isa = PBXGroup;
 			children = (
-				199F275F18104FE30085013D /* MyLineDrawingView.h */,
-				199F276018104FE30085013D /* MyLineDrawingView.m */,
+				19FF83F418106EE5005A4E49 /* MyLineDrawingView.h */,
+				19FF83F518106EE5005A4E49 /* MyLineDrawingView.m */,
 				19558ADB1809DFD0008D0AE2 /* sbAppDelegate.h */,
 				19558ADC1809DFD0008D0AE2 /* sbAppDelegate.m */,
 				19558ADE1809DFD0008D0AE2 /* Main_iPhone.storyboard */,
 				19558AE11809DFD0008D0AE2 /* Main_iPad.storyboard */,
 				19558AE41809DFD0008D0AE2 /* sbFirstViewController.h */,
 				19558AE51809DFD0008D0AE2 /* sbFirstViewController.m */,
-				19558AE71809DFD0008D0AE2 /* sbSecondViewController.h */,
-				19558AE81809DFD0008D0AE2 /* sbSecondViewController.m */,
 				19558AEA1809DFD0008D0AE2 /* Images.xcassets */,
 				19558AD31809DFD0008D0AE2 /* Supporting Files */,
 			);
@@ -221,6 +216,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Sacha Best";
 				TargetAttributes = {
+					19558AC81809DFD0008D0AE2 = {
+						DevelopmentTeam = Q4N479MPW3;
+					};
 					19558AEF1809DFD0008D0AE2 = {
 						TestTargetID = 19558AC81809DFD0008D0AE2;
 					};
@@ -272,11 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				199F276118104FE30085013D /* MyLineDrawingView.m in Sources */,
+				19FF83F618106EE5005A4E49 /* MyLineDrawingView.m in Sources */,
 				19558AD91809DFD0008D0AE2 /* main.m in Sources */,
 				19558AE61809DFD0008D0AE2 /* sbFirstViewController.m in Sources */,
 				19558ADD1809DFD0008D0AE2 /* sbAppDelegate.m in Sources */,
-				19558AE91809DFD0008D0AE2 /* sbSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,10 +410,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "drawnotes/drawnotes-Prefix.pch";
 				INFOPLIST_FILE = "drawnotes/drawnotes-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -426,10 +426,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "drawnotes/drawnotes-Prefix.pch";
 				INFOPLIST_FILE = "drawnotes/drawnotes-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyLineDrawingView.h"
 
-@interface sbFirstViewController : UIViewController
+@interface sbFirstViewController : UIViewController {
 
-
-
+MyLineDrawingView *drawScreen;
+}
 @end

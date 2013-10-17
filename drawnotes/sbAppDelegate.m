@@ -10,10 +10,14 @@
 #import "sbFirstViewController.h"
 
 @implementation sbAppDelegate
+@synthesize window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    sbFirstViewController *myDrawingController=[[sbFirstViewController alloc]initWithNibName:@"DrawingController" bundle:[NSBundle mainBundle]];
+    
+    sbFirstViewController *drawingView=[[sbFirstViewController alloc]init];
+    [self.window addSubview:drawingView.view];
+
     
     // Override point for customization after application launch.
     [self.window makeKeyAndVisible];
