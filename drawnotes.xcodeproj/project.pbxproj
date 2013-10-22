@@ -23,6 +23,32 @@
 		19558AFC1809DFD0008D0AE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19558AFA1809DFD0008D0AE2 /* InfoPlist.strings */; };
 		19558AFE1809DFD0008D0AE2 /* drawnotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19558AFD1809DFD0008D0AE2 /* drawnotesTests.m */; };
 		198FAAEA1811DD9400BEF99D /* sbColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 198FAAE91811DD9400BEF99D /* sbColorPicker.m */; };
+		19F89A5D18170C8F00DD849C /* apple-touch-icon-114x114-precomposed.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F89A4B18170C8F00DD849C /* apple-touch-icon-114x114-precomposed.png */; };
+		19F89A5E18170C8F00DD849C /* apple-touch-icon-144x144-precomposed.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F89A4C18170C8F00DD849C /* apple-touch-icon-144x144-precomposed.png */; };
+		19F89A5F18170C8F00DD849C /* apple-touch-icon-72x72-precomposed.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F89A4D18170C8F00DD849C /* apple-touch-icon-72x72-precomposed.png */; };
+		19F89A6018170C8F00DD849C /* apple-touch-icon-precomposed.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F89A4E18170C8F00DD849C /* apple-touch-icon-precomposed.png */; };
+		19F89A6118170C8F00DD849C /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F89A4F18170C8F00DD849C /* Icon-72.png */; };
+		19F89A6218170C8F00DD849C /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F89A5018170C8F00DD849C /* Icon-72@2x.png */; };
+		19F89A6318170C8F00DD849C /* Icon-Small-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F89A5118170C8F00DD849C /* Icon-Small-20.png */; };
+		19F89A6418170C8F00DD849C /* Icon-Small-20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F89A5218170C8F00DD849C /* Icon-Small-20@2x.png */; };
+		19F89A6518170C8F00DD849C /* Icon-Small-30.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F89A5318170C8F00DD849C /* Icon-Small-30.png */; };
+		19F89A6618170C8F00DD849C /* Icon-Small-30@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F89A5418170C8F00DD849C /* Icon-Small-30@2x.png */; };
+		19F89A6718170C8F00DD849C /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F89A5518170C8F00DD849C /* Icon-Small-50.png */; };
+		19F89A6818170C8F00DD849C /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F89A5618170C8F00DD849C /* Icon-Small-50@2x.png */; };
+		19F89A6918170C8F00DD849C /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F89A5718170C8F00DD849C /* Icon-Small.png */; };
+		19F89A6A18170C8F00DD849C /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F89A5818170C8F00DD849C /* Icon-Small@2x.png */; };
+		19F89A6B18170C8F00DD849C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F89A5918170C8F00DD849C /* Icon.png */; };
+		19F89A6C18170C8F00DD849C /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F89A5A18170C8F00DD849C /* Icon@2x.png */; };
+		19F89A6D18170C8F00DD849C /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F89A5B18170C8F00DD849C /* iTunesArtwork.png */; };
+		19F89A6E18170C8F00DD849C /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F89A5C18170C8F00DD849C /* iTunesArtwork@2x.png */; };
+		19F89A7718170FCE00DD849C /* drawnotes_launch_4Retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F89A7018170FCE00DD849C /* drawnotes_launch_4Retina.png */; };
+		19F89A7818170FCE00DD849C /* drawnotes_launch_5Retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F89A7118170FCE00DD849C /* drawnotes_launch_5Retina.png */; };
+		19F89A7918170FCE00DD849C /* drawnotes_launch_5Retina.psd in Resources */ = {isa = PBXBuildFile; fileRef = 19F89A7218170FCE00DD849C /* drawnotes_launch_5Retina.psd */; };
+		19F89A7A18170FCE00DD849C /* drawnotes_launch_iPadH.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F89A7318170FCE00DD849C /* drawnotes_launch_iPadH.png */; };
+		19F89A7B18170FCE00DD849C /* drawnotes_launch_iPadRetinaH.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F89A7418170FCE00DD849C /* drawnotes_launch_iPadRetinaH.png */; };
+		19F89A7C18170FCE00DD849C /* drawnotes_launch_iPadRetinaV.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F89A7518170FCE00DD849C /* drawnotes_launch_iPadRetinaV.png */; };
+		19F89A7D18170FCE00DD849C /* drawnotes_launch_iPadV.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F89A7618170FCE00DD849C /* drawnotes_launch_iPadV.png */; };
+		19F89A7F1817105B00DD849C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F89A7E1817105B00DD849C /* StoreKit.framework */; };
 		19FF83F618106EE5005A4E49 /* MyLineDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FF83F518106EE5005A4E49 /* MyLineDrawingView.m */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +85,32 @@
 		19558AFD1809DFD0008D0AE2 /* drawnotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = drawnotesTests.m; sourceTree = "<group>"; };
 		198FAAE81811DD9400BEF99D /* sbColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sbColorPicker.h; sourceTree = "<group>"; };
 		198FAAE91811DD9400BEF99D /* sbColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sbColorPicker.m; sourceTree = "<group>"; };
+		19F89A4B18170C8F00DD849C /* apple-touch-icon-114x114-precomposed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-114x114-precomposed.png"; sourceTree = "<group>"; };
+		19F89A4C18170C8F00DD849C /* apple-touch-icon-144x144-precomposed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-144x144-precomposed.png"; sourceTree = "<group>"; };
+		19F89A4D18170C8F00DD849C /* apple-touch-icon-72x72-precomposed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-72x72-precomposed.png"; sourceTree = "<group>"; };
+		19F89A4E18170C8F00DD849C /* apple-touch-icon-precomposed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-precomposed.png"; sourceTree = "<group>"; };
+		19F89A4F18170C8F00DD849C /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		19F89A5018170C8F00DD849C /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		19F89A5118170C8F00DD849C /* Icon-Small-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-20.png"; sourceTree = "<group>"; };
+		19F89A5218170C8F00DD849C /* Icon-Small-20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-20@2x.png"; sourceTree = "<group>"; };
+		19F89A5318170C8F00DD849C /* Icon-Small-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-30.png"; sourceTree = "<group>"; };
+		19F89A5418170C8F00DD849C /* Icon-Small-30@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-30@2x.png"; sourceTree = "<group>"; };
+		19F89A5518170C8F00DD849C /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		19F89A5618170C8F00DD849C /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		19F89A5718170C8F00DD849C /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		19F89A5818170C8F00DD849C /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		19F89A5918170C8F00DD849C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		19F89A5A18170C8F00DD849C /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		19F89A5B18170C8F00DD849C /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		19F89A5C18170C8F00DD849C /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		19F89A7018170FCE00DD849C /* drawnotes_launch_4Retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drawnotes_launch_4Retina.png; sourceTree = "<group>"; };
+		19F89A7118170FCE00DD849C /* drawnotes_launch_5Retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drawnotes_launch_5Retina.png; sourceTree = "<group>"; };
+		19F89A7218170FCE00DD849C /* drawnotes_launch_5Retina.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = drawnotes_launch_5Retina.psd; sourceTree = "<group>"; };
+		19F89A7318170FCE00DD849C /* drawnotes_launch_iPadH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drawnotes_launch_iPadH.png; sourceTree = "<group>"; };
+		19F89A7418170FCE00DD849C /* drawnotes_launch_iPadRetinaH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drawnotes_launch_iPadRetinaH.png; sourceTree = "<group>"; };
+		19F89A7518170FCE00DD849C /* drawnotes_launch_iPadRetinaV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drawnotes_launch_iPadRetinaV.png; sourceTree = "<group>"; };
+		19F89A7618170FCE00DD849C /* drawnotes_launch_iPadV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drawnotes_launch_iPadV.png; sourceTree = "<group>"; };
+		19F89A7E1817105B00DD849C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		19FF83F418106EE5005A4E49 /* MyLineDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLineDrawingView.h; sourceTree = "<group>"; };
 		19FF83F518106EE5005A4E49 /* MyLineDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLineDrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,6 +123,7 @@
 				19558ACF1809DFD0008D0AE2 /* CoreGraphics.framework in Frameworks */,
 				19558AD11809DFD0008D0AE2 /* UIKit.framework in Frameworks */,
 				19558ACD1809DFD0008D0AE2 /* Foundation.framework in Frameworks */,
+				19F89A7F1817105B00DD849C /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +163,7 @@
 		19558ACB1809DFD0008D0AE2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				19F89A7E1817105B00DD849C /* StoreKit.framework */,
 				19558ACC1809DFD0008D0AE2 /* Foundation.framework */,
 				19558ACE1809DFD0008D0AE2 /* CoreGraphics.framework */,
 				19558AD01809DFD0008D0AE2 /* UIKit.framework */,
@@ -140,6 +194,8 @@
 		19558AD31809DFD0008D0AE2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				19F89A6F18170FCE00DD849C /* Launch Images */,
+				19F89A4A18170C8F00DD849C /* icons */,
 				19558AD41809DFD0008D0AE2 /* drawnotes-Info.plist */,
 				19558AD51809DFD0008D0AE2 /* InfoPlist.strings */,
 				19558AD81809DFD0008D0AE2 /* main.m */,
@@ -171,6 +227,45 @@
 			children = (
 			);
 			name = Docs;
+			sourceTree = "<group>";
+		};
+		19F89A4A18170C8F00DD849C /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				19F89A4B18170C8F00DD849C /* apple-touch-icon-114x114-precomposed.png */,
+				19F89A4C18170C8F00DD849C /* apple-touch-icon-144x144-precomposed.png */,
+				19F89A4D18170C8F00DD849C /* apple-touch-icon-72x72-precomposed.png */,
+				19F89A4E18170C8F00DD849C /* apple-touch-icon-precomposed.png */,
+				19F89A4F18170C8F00DD849C /* Icon-72.png */,
+				19F89A5018170C8F00DD849C /* Icon-72@2x.png */,
+				19F89A5118170C8F00DD849C /* Icon-Small-20.png */,
+				19F89A5218170C8F00DD849C /* Icon-Small-20@2x.png */,
+				19F89A5318170C8F00DD849C /* Icon-Small-30.png */,
+				19F89A5418170C8F00DD849C /* Icon-Small-30@2x.png */,
+				19F89A5518170C8F00DD849C /* Icon-Small-50.png */,
+				19F89A5618170C8F00DD849C /* Icon-Small-50@2x.png */,
+				19F89A5718170C8F00DD849C /* Icon-Small.png */,
+				19F89A5818170C8F00DD849C /* Icon-Small@2x.png */,
+				19F89A5918170C8F00DD849C /* Icon.png */,
+				19F89A5A18170C8F00DD849C /* Icon@2x.png */,
+				19F89A5B18170C8F00DD849C /* iTunesArtwork.png */,
+				19F89A5C18170C8F00DD849C /* iTunesArtwork@2x.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		19F89A6F18170FCE00DD849C /* Launch Images */ = {
+			isa = PBXGroup;
+			children = (
+				19F89A7018170FCE00DD849C /* drawnotes_launch_4Retina.png */,
+				19F89A7118170FCE00DD849C /* drawnotes_launch_5Retina.png */,
+				19F89A7218170FCE00DD849C /* drawnotes_launch_5Retina.psd */,
+				19F89A7318170FCE00DD849C /* drawnotes_launch_iPadH.png */,
+				19F89A7418170FCE00DD849C /* drawnotes_launch_iPadRetinaH.png */,
+				19F89A7518170FCE00DD849C /* drawnotes_launch_iPadRetinaV.png */,
+				19F89A7618170FCE00DD849C /* drawnotes_launch_iPadV.png */,
+			);
+			path = "Launch Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +318,14 @@
 				TargetAttributes = {
 					19558AC81809DFD0008D0AE2 = {
 						DevelopmentTeam = Q4N479MPW3;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
 					};
 					19558AEF1809DFD0008D0AE2 = {
 						TestTargetID = 19558AC81809DFD0008D0AE2;
@@ -253,10 +356,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19F89A7918170FCE00DD849C /* drawnotes_launch_5Retina.psd in Resources */,
+				19F89A5E18170C8F00DD849C /* apple-touch-icon-144x144-precomposed.png in Resources */,
+				19F89A5D18170C8F00DD849C /* apple-touch-icon-114x114-precomposed.png in Resources */,
+				19F89A6818170C8F00DD849C /* Icon-Small-50@2x.png in Resources */,
+				19F89A6D18170C8F00DD849C /* iTunesArtwork.png in Resources */,
+				19F89A6A18170C8F00DD849C /* Icon-Small@2x.png in Resources */,
+				19F89A6218170C8F00DD849C /* Icon-72@2x.png in Resources */,
+				19F89A7B18170FCE00DD849C /* drawnotes_launch_iPadRetinaH.png in Resources */,
+				19F89A6518170C8F00DD849C /* Icon-Small-30.png in Resources */,
+				19F89A6618170C8F00DD849C /* Icon-Small-30@2x.png in Resources */,
+				19F89A7A18170FCE00DD849C /* drawnotes_launch_iPadH.png in Resources */,
+				19F89A6418170C8F00DD849C /* Icon-Small-20@2x.png in Resources */,
+				19F89A7C18170FCE00DD849C /* drawnotes_launch_iPadRetinaV.png in Resources */,
+				19F89A6118170C8F00DD849C /* Icon-72.png in Resources */,
+				19F89A6C18170C8F00DD849C /* Icon@2x.png in Resources */,
+				19F89A6018170C8F00DD849C /* apple-touch-icon-precomposed.png in Resources */,
+				19F89A6B18170C8F00DD849C /* Icon.png in Resources */,
+				19F89A6E18170C8F00DD849C /* iTunesArtwork@2x.png in Resources */,
+				19F89A5F18170C8F00DD849C /* apple-touch-icon-72x72-precomposed.png in Resources */,
+				19F89A6918170C8F00DD849C /* Icon-Small.png in Resources */,
 				19558AE31809DFD0008D0AE2 /* Main_iPad.storyboard in Resources */,
 				19558AEB1809DFD0008D0AE2 /* Images.xcassets in Resources */,
 				19558AE01809DFD0008D0AE2 /* Main_iPhone.storyboard in Resources */,
+				19F89A6718170C8F00DD849C /* Icon-Small-50.png in Resources */,
+				19F89A7D18170FCE00DD849C /* drawnotes_launch_iPadV.png in Resources */,
 				19558AD71809DFD0008D0AE2 /* InfoPlist.strings in Resources */,
+				19F89A6318170C8F00DD849C /* Icon-Small-20.png in Resources */,
+				19F89A7718170FCE00DD849C /* drawnotes_launch_4Retina.png in Resources */,
+				19F89A7818170FCE00DD849C /* drawnotes_launch_5Retina.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
