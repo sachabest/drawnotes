@@ -22,6 +22,7 @@
 		19558AF41809DFD0008D0AE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19558AD01809DFD0008D0AE2 /* UIKit.framework */; };
 		19558AFC1809DFD0008D0AE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19558AFA1809DFD0008D0AE2 /* InfoPlist.strings */; };
 		19558AFE1809DFD0008D0AE2 /* drawnotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19558AFD1809DFD0008D0AE2 /* drawnotesTests.m */; };
+		198FAAEA1811DD9400BEF99D /* sbColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 198FAAE91811DD9400BEF99D /* sbColorPicker.m */; };
 		19FF83F618106EE5005A4E49 /* MyLineDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FF83F518106EE5005A4E49 /* MyLineDrawingView.m */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,8 @@
 		19558AF91809DFD0008D0AE2 /* drawnotesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "drawnotesTests-Info.plist"; sourceTree = "<group>"; };
 		19558AFB1809DFD0008D0AE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		19558AFD1809DFD0008D0AE2 /* drawnotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = drawnotesTests.m; sourceTree = "<group>"; };
+		198FAAE81811DD9400BEF99D /* sbColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sbColorPicker.h; sourceTree = "<group>"; };
+		198FAAE91811DD9400BEF99D /* sbColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sbColorPicker.m; sourceTree = "<group>"; };
 		19FF83F418106EE5005A4E49 /* MyLineDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLineDrawingView.h; sourceTree = "<group>"; };
 		19FF83F518106EE5005A4E49 /* MyLineDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLineDrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,8 +125,10 @@
 				19FF83F518106EE5005A4E49 /* MyLineDrawingView.m */,
 				19558ADB1809DFD0008D0AE2 /* sbAppDelegate.h */,
 				19558ADC1809DFD0008D0AE2 /* sbAppDelegate.m */,
-				19558ADE1809DFD0008D0AE2 /* Main_iPhone.storyboard */,
+				198FAAE81811DD9400BEF99D /* sbColorPicker.h */,
+				198FAAE91811DD9400BEF99D /* sbColorPicker.m */,
 				19558AE11809DFD0008D0AE2 /* Main_iPad.storyboard */,
+				19558ADE1809DFD0008D0AE2 /* Main_iPhone.storyboard */,
 				19558AE41809DFD0008D0AE2 /* sbFirstViewController.h */,
 				19558AE51809DFD0008D0AE2 /* sbFirstViewController.m */,
 				19558AEA1809DFD0008D0AE2 /* Images.xcassets */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19FF83F618106EE5005A4E49 /* MyLineDrawingView.m in Sources */,
+				198FAAEA1811DD9400BEF99D /* sbColorPicker.m in Sources */,
 				19558AD91809DFD0008D0AE2 /* main.m in Sources */,
 				19558AE61809DFD0008D0AE2 /* sbFirstViewController.m in Sources */,
 				19558ADD1809DFD0008D0AE2 /* sbAppDelegate.m in Sources */,

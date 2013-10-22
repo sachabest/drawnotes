@@ -24,7 +24,6 @@
     return self;
 }
 
-
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect
@@ -46,7 +45,7 @@
     [myPath moveToPoint:[mytouch locationInView:self]];
     [pathArray addObject:myPath];
 }
--(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
+-(void)touchesMoved:(NSSet *)touches CGwithEvent:(UIEvent *)event
 {
     UITouch *mytouch=[[touches allObjects] objectAtIndex:0];
     [myPath addLineToPoint:[mytouch locationInView:self]];
